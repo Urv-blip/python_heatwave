@@ -1,0 +1,9 @@
+city,state,normal_max,day,max_temp,min_temp,humidity
+Pune,Maharashtra,36.0,2026-10-20,35.2,22.0,45
+Pune,Maharashtra,36.0,2026-10-21,36.4,22.5,42
+Pune,Maharashtra,36.0,2026-10-22,38.1,23.0,40
+Pune,Maharashtra,36.0,2026-10-23,40.3,23.8,38
+Lucknow,Uttar Pradesh,38.0,2026-10-20,37.0,24.0,35
+Lucknow,Uttar Pradesh,38.0,2026-10-21,39.5,25.0,33
+Lucknow,Uttar Pradesh,38.0,2026-10-22,41.2,25.5,30
+Lucknow,Uttar Pradesh,38.0,2026-10-23,43.0,26.0,28
