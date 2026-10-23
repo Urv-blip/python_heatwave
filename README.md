@@ -1,15 +1,13 @@
 # Heatwave Guard
 Climate Intelligence for Heatwave Monitoring, Prediction and Early Warning (Python Mini Project)
 
-Files: database.py (SQLite) | live_data.py (fetch real data) | predictor.py (heat index, risk, forecast)
+Files: database.py (SQLite) | predictor.py (heat index, risk, forecast)
        app.py (Tkinter GUI) | web_export.py (HTML/CSS website)
 
 Run (Python 3.8+, standard library only):
   python app.py                 # desktop app; fetches live data on start, button to refresh
   python web_export.py          # website with SIMULATED demo data -> website/index.html (open in browser)
-  python web_export.py --live   # website with real Open-Meteo data instead (internet needed)
-  python live_data.py           # only update the database
-
+ 
 Notes: "normal" temperature = 10-year ERA5 average for +/-7 days around today's date.
 Today's daily maximum is the model value for the full day. If you delete heatwave.db it is rebuilt.
 
