@@ -1,8 +1,6 @@
 # Heatwave Guard
 Climate Intelligence for Heatwave Monitoring, Prediction and Early Warning (Python Mini Project)
 
-Real weather data: Open-Meteo (https://open-meteo.com, free, no API key, CC BY 4.0). Internet needed.
-
 Files: database.py (SQLite) | live_data.py (fetch real data) | predictor.py (heat index, risk, forecast)
        app.py (Tkinter GUI) | web_export.py (HTML/CSS website)
 
